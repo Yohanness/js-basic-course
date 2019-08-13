@@ -7,7 +7,7 @@ export class Human {
   
     // Method (no need function keyword)
     identify(suffix) {
-      return `Hero Id: ${this.id} + ${suffix}`;
+      return `Hero Id: ${this.id} ${suffix}`;
     }
   
   }
